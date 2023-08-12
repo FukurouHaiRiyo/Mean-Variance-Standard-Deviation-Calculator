@@ -3,7 +3,7 @@ import numpy as np
 
 def calculate(List):
     if len(List) != 9:
-        raise ValueError('List must contain nine numbers')
+        raise ValueError('List must contain nine numbers.')
 
     matrix = np.array(List).reshape(3, 3)
     calculations = {
